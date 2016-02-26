@@ -2,6 +2,20 @@
 <items version="2" >
 
     <item
+        jar="/Users/ben/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/ben/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-3c0458d82134370f3f2fbc23e4c587cf369706b7.jar" />
+    </item>
+    <item
+        jar="/Users/ben/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/ben/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/glide-3.7.0-e0af7bf826c304d025c73dbdb8f16bec3479e695.jar" />
+    </item>
+    <item
         jar="/Users/ben/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -16,13 +30,6 @@
         <dex dex="/Users/ben/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-2cfb9d120daed17e4c1e92217502ec200fd36281.jar" />
     </item>
     <item
-        jar="/Users/ben/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/1.1.0/d51280dbb4e8539f6c3f369d516edc26f9d89d31/okhttp-1.1.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d51280dbb4e8539f6c3f369d516edc26f9d89d31">
-        <dex dex="/Users/ben/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/okhttp-1.1.0-2411a1be6949e9b1933012d129d438b18ee03eef.jar" />
-    </item>
-    <item
         jar="/Users/ben/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/libs/internal_impl-22.2.0.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -35,6 +42,13 @@
         revision="22.0.1"
         sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
         <dex dex="/Users/ben/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-b4cc608176d2052a73aa81e095e0875de1dd8350.jar" />
+    </item>
+    <item
+        jar="/Users/ben/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/1.1.0/d51280dbb4e8539f6c3f369d516edc26f9d89d31/okhttp-1.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d51280dbb4e8539f6c3f369d516edc26f9d89d31">
+        <dex dex="/Users/ben/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/okhttp-1.1.0-2411a1be6949e9b1933012d129d438b18ee03eef.jar" />
     </item>
     <item
         jar="/Users/ben/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v13/22.0.0/classes.jar"
@@ -63,13 +77,6 @@
         revision="22.0.1"
         sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
         <dex dex="/Users/ben/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-53ae4a09cf9ba4d3166231f54b3350f86d776a5c.jar" />
-    </item>
-    <item
-        jar="/Users/ben/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/Users/ben/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-3c0458d82134370f3f2fbc23e4c587cf369706b7.jar" />
     </item>
     <item
         jar="/Users/ben/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/classes.jar"
