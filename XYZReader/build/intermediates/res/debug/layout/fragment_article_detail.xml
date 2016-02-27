@@ -105,19 +105,18 @@
         android:contentDescription="@string/action_share" />-->
 
     <android.support.design.widget.FloatingActionButton
+        xmlns:app="http://schemas.android.com/apk/res-auto"
         app:fabSize="normal"
         app:elevation="@dimen/fab_elevation"
         app:pressedTranslationZ="12dp"
+        app:borderWidth="0dp"
         android:id="@+id/share_fab"
         android:src="@drawable/ic_share"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:layout_gravity="bottom|end"
-        android:contentDescription="@string/action_share"
-
-
-        />
+        android:contentDescription="@string/action_share" />
 
 </com.example.xyzreader.ui.DrawInsetsFrameLayout>
 <!-- From: file:/Users/ben/AndroidStudioProjects/xyzreader/XYZReader/src/main/res/layout/fragment_article_detail.xml -->
