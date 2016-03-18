@@ -18,6 +18,14 @@
             app:expandedTitleMarginStart="72dp"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo"
+                android:contentDescription="@string/app_name"
+                android:layout_gravity="bottom"
+                />
+
             <android.support.v7.widget.Toolbar
                 android:id="@+id/app_bar"
                 android:layout_width="match_parent"
@@ -26,14 +34,6 @@
                 app:contentInsetStart="72dp"
                 app:layout_collapseMode="pin"
                 android:elevation="4dp"/>
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/logo"
-                android:contentDescription="@string/app_name"
-                android:layout_gravity="bottom"
-                />
 
         </android.support.design.widget.CollapsingToolbarLayout>
 
@@ -62,4 +62,4 @@
 
 
 
-<!-- From: file:/Users/benny/AndroidStudioProjects/XZYReader/XYZReader/src/main/res/layout/activity_article_list.xml -->
+<!-- From: file:/Users/ben/AndroidStudioProjects/xyzreader/XYZReader/src/main/res/layout/activity_article_list.xml -->
