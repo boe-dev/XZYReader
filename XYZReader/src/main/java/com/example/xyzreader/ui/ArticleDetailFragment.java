@@ -10,6 +10,7 @@ import android.graphics.Color;
 import android.graphics.Rect;
 import android.graphics.Typeface;
 import android.graphics.drawable.ColorDrawable;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.ShareCompat;
@@ -105,6 +106,10 @@ public class ArticleDetailFragment extends Fragment implements
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState) {
         mRootView = inflater.inflate(R.layout.fragment_article_detail, container, false);
+        if (Build.VERSION.SDK_INT >= 21) {
+            mRootView.findViewById(R.id.photo).setTransitionName("test");
+            Log.v("ArticleDetailFragment", mRootView.findViewById(R.id.photo).getTransitionName());
+        }
         mDrawInsetsFrameLayout = (DrawInsetsFrameLayout)
                 mRootView.findViewById(R.id.draw_insets_frame_layout);
         mDrawInsetsFrameLayout.setOnInsetsCallback(new DrawInsetsFrameLayout.OnInsetsCallback() {
@@ -126,6 +131,9 @@ public class ArticleDetailFragment extends Fragment implements
         });
 
         mPhotoView = (ImageView) mRootView.findViewById(R.id.photo);
+        if (Build.VERSION.SDK_INT >= 21) {
+            mPhotoView.setTransitionName("test");
+        }
         mPhotoContainerView = mRootView.findViewById(R.id.photo_container);
         FloatingActionButton test = (FloatingActionButton) mRootView.findViewById(R.id.share_fab);
 
@@ -237,6 +245,8 @@ public class ArticleDetailFragment extends Fragment implements
 
     @Override
     public void onLoadFinished(Loader<Cursor> cursorLoader, Cursor cursor) {
+
+
         if (!isAdded()) {
             if (cursor != null) {
                 cursor.close();
