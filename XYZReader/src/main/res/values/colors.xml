@@ -28,4 +28,5 @@
     <color name="pink_a200">#FF4081</color>
     <color name="photo_placeholder">#ccc</color>
     <color name="ltgray">#ffe0e0e0</color>
+    <color name="transparent">#00000000</color>
 </resources>

@@ -171,7 +171,7 @@ public class ArticleListActivity extends AppCompatActivity implements
                             DateUtils.FORMAT_ABBREV_ALL).toString()
                             + " by "
                             + mCursor.getString(ArticleLoader.Query.AUTHOR));
-            holder.thumbnailView.setImageUrl(mCursor.getString(ArticleLoader.Query.PHOTO_URL), ImageLoaderHelper.getInstance(ArticleListActivity.this).getImageLoader());
+            holder.thumbnailView.setImageUrl(mCursor.getString(ArticleLoader.Query.THUMB_URL), ImageLoaderHelper.getInstance(ArticleListActivity.this).getImageLoader());
             if (Build.VERSION.SDK_INT >= 21) {
                 holder.thumbnailView.setTransitionName("test");
                 Log.v("ArticleListActivty", holder.thumbnailView.getTransitionName());
