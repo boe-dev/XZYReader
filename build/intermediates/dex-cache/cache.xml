@@ -51,6 +51,13 @@
         <dex dex="/Users/benny/AndroidStudioProjects/XZYReader/XYZReader/build/intermediates/pre-dexed/debug/support-annotations-23.2.0-4938a5150d0d7778210e612c48fb54c4d32c58be.jar" />
     </item>
     <item
+        jar="/Users/benny/AndroidStudioProjects/XZYReader/XYZReader/libs/volley.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="c68094cbd011a3f9dccbfe16e77a2cf43622e277">
+        <dex dex="/Users/benny/AndroidStudioProjects/XZYReader/XYZReader/build/intermediates/pre-dexed/debug/volley-5a3a7b133944ecf69311aec413791b5930236da7.jar" />
+    </item>
+    <item
         jar="/Users/benny/AndroidStudioProjects/XZYReader/XYZReader/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.0/classes.jar"
         jumboMode="false"
         revision="23.0.1"
@@ -105,6 +112,20 @@
         revision="23.0.1"
         sha1="c68094cbd011a3f9dccbfe16e77a2cf43622e277">
         <dex dex="/Users/benny/AndroidStudioProjects/XZYReader/XYZReader/build/intermediates/pre-dexed/debug/volley-5a3a7b133944ecf69311aec413791b5930236da7.jar" />
+    </item>
+    <item
+        jar="/Users/benny/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/1.1.0/d51280dbb4e8539f6c3f369d516edc26f9d89d31/okhttp-1.1.0.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="d51280dbb4e8539f6c3f369d516edc26f9d89d31">
+        <dex dex="/Users/benny/AndroidStudioProjects/XZYReader/XYZReader/build/intermediates/pre-dexed/debug/okhttp-1.1.0-7e443ba991e2b6316a87382df867532339664ac3.jar" />
+    </item>
+    <item
+        jar="/Users/benny/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/benny/AndroidStudioProjects/XZYReader/XYZReader/build/intermediates/pre-dexed/debug/glide-3.7.0-810b2c4707d0c095a1d816c2dabeeead8884cb93.jar" />
     </item>
 
 </items>
